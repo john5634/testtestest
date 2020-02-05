@@ -1,0 +1,89 @@
+/*nav {
+	background-color: #eeeeee;
+	margin: 0;
+}
+nav ul {	
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+nav ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+nav ul li a {
+	color: #000000;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12.5px 16px;
+	text-align: center;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #07AAC6;
+}
+body {
+	margin: 0;
+	padding: 0;
+}*/
+/* CLASSES */
+/*.navbar {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 31.5px 10px;
+	width: 80%;
+}*/
+.bg-gray_gcm {
+	background-color: #eeeeee;
+}
+.navbar-logo_gcm {
+	height: 40px;
+	padding: 0px 5px;
+	width: 150px;
+}
+.nav-bold_gcm {
+	font-weight: bold;
+}
+.nav-less-space_gcm {
+	padding-right: .1rem;
+	padding-left: .1rem;
+}
+.part-main-img_gcm {
+	height: 40px;
+	width: 150px;
+}
+.footer-pt-5_gcm {
+	padding-top: .5rem!important;
+}
+.footer-mt-3_gcm {
+	margin-top: 1rem!important;
+}
+.footer-color_gcm {
+	background: rgba(200,200,200,.5);
+}
+.footer-links_gcm {
+	color: #000;
+	cursor: pointer;
+	text-decoration: none;
+	transition: all .2 ease-in-out;
+}
+.footer-links_gcm:hover {
+	color: #000;
+	text-decoration: none;
+	transition: all .2 ease-in-out;
+}
+/*.nav-right {
+	float: right;
+}
+.login {
+	display: inline-block;
+	padding-right: 8px;
+}
+.register {
+	display: inline-block;
+	padding-left: 8px;
+}*/

@@ -1,0 +1,78 @@
+/* part create */
+
+.one-image {
+	width: 150px;
+	float: left;
+	padding: 5px;
+}
+
+.one-image .thumb {
+	width: 140px;
+	height: 140px;
+	background-color: #eee;
+}
+
+.one-image img {
+	width: 140px;
+	height: 140px;
+	object-fit: contain;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* view one part */
+
+.owl-stage-outer {
+	border: 1px solid #999;
+}
+
+.owl-carousel .owl-stage {
+	display: flex;
+	align-items: center;
+}
+
+.comment-image-container {
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	background-color: rgba(200,200,200,.5);
+}
+
+.comment-image-container img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+/* all parts */
+
+.parts-part {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+}
+
+.parts-header {
+	position: absolute;
+	background: rgba(200,200,200,.5);
+	width: 100%;
+	padding: 10px;
+}
+
+.parts-thumb-container {
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	background-color: rgba(200,200,200,.5);
+}
+
+.parts-thumb-container img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
